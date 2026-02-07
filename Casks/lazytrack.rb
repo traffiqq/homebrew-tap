@@ -3,7 +3,7 @@ cask "lazytrack" do
   name "lazytrack"
   desc "Terminal UI for managing YouTrack issues, inspired by lazygit"
   homepage "https://github.com/traffiqq/lazyTrack"
-  version "0.2.2"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lazytrack" do
   on_macos do
     on_intel do
       url "https://github.com/traffiqq/lazyTrack/releases/download/v#{version}/lazyTrack_#{version}_darwin_amd64.tar.gz"
-      sha256 "cdc818ce4b84bb41e77cda97af31047517eb46f8fb8ed49ebaac681c94627b61"
+      sha256 "d02827a456393e4d7bf4f49341a02c9e302d907b56c9a4276c9bd31044aa25fd"
     end
     on_arm do
       url "https://github.com/traffiqq/lazyTrack/releases/download/v#{version}/lazyTrack_#{version}_darwin_arm64.tar.gz"
-      sha256 "1f6053cb487acac7247f9040e3c5b7e0c0bc192782bd62fc2009a039bc653696"
+      sha256 "6352ef73cfa7b3352150451b6abc428b591186dbea28ec335c7647adfc408aa6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/traffiqq/lazyTrack/releases/download/v#{version}/lazyTrack_#{version}_linux_amd64.tar.gz"
-      sha256 "6d259885ee661ebd599531b6b4ce762ce83ff900d293c93c42ac23d8dc62cd01"
+      sha256 "dcac5d1ac15afe584052d2dfabb85c00801d50e18e3568262488fd915d7cb646"
     end
     on_arm do
       url "https://github.com/traffiqq/lazyTrack/releases/download/v#{version}/lazyTrack_#{version}_linux_arm64.tar.gz"
-      sha256 "abd2a4f51e8cb859f0e2f9ed764c03c17e43e906ebbde4676f68fd78c679a3f6"
+      sha256 "66abce0c501d2ba2c412d868bce0b707ee8840b8d476ce70d198dca0654371c9"
     end
   end
 
